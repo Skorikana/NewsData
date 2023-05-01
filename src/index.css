@@ -1,0 +1,49 @@
+.bgimg{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display:flex;
+  position:fixed;
+}
+.nav {
+  position:fixed;
+  display:flex;
+  padding: 13px; 
+  font-size: 2em;
+  height:100%;
+  color:yellow;
+  width:15%;
+  z-index:1; 
+  top:4px;
+  left:1%;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+} 
+.homepagetext{
+  display:flex;
+  font-size:30px;
+  color:yellow;
+ }
+.card{
+    margin-left:15%;
+ }
+ .card-body{
+  height:10%;
+ }
+ .nav a{
+   display:flex;
+   color: yellow;  /*sidenavbar text color */
+}
+h4{
+  color:yellow;
+  background-color: #111; 
+}
+.newsdisplay{
+  margin-left:15%;
+  padding: 10px;
+  width: 50%;
+  display:flex;
+ display:grid;  /*  need to check */
+ grid-template-columns: 1fr 1fr 1fr;
+}
