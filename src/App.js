@@ -12,8 +12,7 @@ export default function App() {
       <Router>
       <Nav/>
       <img className ="bgimg" src ={images1}  alt="" />      {/*background image for the home screen */}
-      <Getdata/>
-      <Routes>
+        <Routes>
         <Route path="/" element={<Home/>}/> 
         <Route path="/business" element={<Getdata props ="business"/>}/>
         <Route path="/health"   element={< Getdata props ="health"/>}/> 

@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className = "container1">  
     <div className= "home">
-    {/* <div className="homepagetext"> */}
+     {/* <div className="homepagetext"> 
+    <h3>Info at ur finger clicks</h3> */}
      <div className="generalnews">
-    
-     <Getdata  props ="general"/>
-     
+      <Getdata  props ="top"/> 
       </div> 
       </div>
       </div>
+      // </div>
      
   )
 }

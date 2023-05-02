@@ -2,9 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Technologies Used
+HTML
+CSS
+JAVSCRIPT
+BOOTSTRAP
+REACT
 
-In the project directory, you can run:
+## Installation Steps
+
+Clo
 
 ### `npm start`
 

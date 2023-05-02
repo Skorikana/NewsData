@@ -2,19 +2,16 @@ import {useEffect ,useState} from 'react';
 import GetItem from "./GetItem";
 
 export default function Getdata({props}){
-    // const  key = "pub_214903577e90029cdb01aee6afa2f98b663f7" ;
-    
+    const key =process.env.REACT_APP_APIKEY ;
+    //const key = "pub_21291ed85f7b404101d7a26ab848731a5ea16"
      const [news, setNews] = useState([]);
   
      const getNews = async () => {    //fetchdata
-       try{
-    // const response = await fetch (`https://newsapi.org/v2/top-headlines?country=us&category=${props}&apiKey=${apiKey}`) //&page=2&pageSize=10`);
-    
-    const response = await fetch(`https://newsdata.io/api/1/news?apikey=pub_214903577e90029cdb01aee6afa2f98b663f7&q=${props}&country=us `)
-    const result = await response.json();
-    //console.log(result)
-    console.log(result.results)
-    setNews(result.results)        //we are setting the data fetched to be displayed on the page homescreen          
+       try{  
+    const response = await fetch(`https://newsdata.io/api/1/news?apikey=${key}&q=${props}&country=us `)
+    const data = await response.json();
+    console.log(data.results)
+    setNews(data.results)        //we are setting the data fetched to be displayed on the page homescreen          
       }
    catch(e){
     console.error(e)
@@ -32,9 +29,11 @@ export default function Getdata({props}){
              <GetItem
              title       ={results.title}
             //  description ={results.description} 
-             author      ={results.creator}
-             link         ={results.link}
-             urlToImage  ={results.urlToImage}/>
+             pubDate     ={results.pubDate}
+             link        ={results.link}
+             source_id   ={results.source_id}
+             creator     ={results.creator}
+             image_url   ={results.image_url}/>
               </div>
               </div>
               </div>
