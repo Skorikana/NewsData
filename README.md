@@ -1,77 +1,66 @@
-# Getting Started with Create React App
+# **PROJECT TITLE:** 
+**NEWS DATA**-
+A simple News App which  displays latest/trending news headlines/articles throughout the country in various categories.
+<br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **SAMPLE IMAGE**
+![alt text](https://user-images.githubusercontent.com/126014468/235835989-1ee5e494-0f1d-46de-b79e-14fb17a7b5ae.png)
 
-## Technologies Used
-HTML
-CSS
-JAVSCRIPT
-BOOTSTRAP
-REACT
 
-## Installation Steps
+# **TECHNOLOGIES USED:**
 
-Clo
+HTML5<br>CSS<br>REACT JS<br>BOOTSTRAP (https://www.npmjs.com/package/react-bootstrap)<br>
+<br>
 
-### `npm start`
+# **DESCRIPTION:**
+<ul>
+<li> A simple news app which  displays the latest and trending news articles  by fetching data from API <br>
+<li> The NEWS API was fetched from - https://newsdata.io/
+<li> Newsdata.io is an API that provides access to news articles from all over the world.It gathers news from more  than 11419 sources which cover around 154 countries in 69 languages.
+<li> It has credit limit of 200 calls per day.
+<li> The App has various categories with *HOME* displaying the *TOP* trending articles.
+<li> You can choose any desired category for the news information to be displayed<br>
+<li> The information is displayed  with *Title*,*Published Date*,*Created by* and it's *Source*.
+<li> To read the full article ,kindly click on the *View More* button and it directs you to the location where the    article was originally published.
+<li> Its a single page application so the article opens up in the same page.<br>
+<li> For more news articles we need to go back and check out the other articles <br>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# **INSTALLATION INSTRUCTIONS:**
+<ul>
+<li>Clone down this repository. You will need node and npm installed globally on your machine.<br>
+<li>Installation: `npm install`<br>
+<li>To Run Test Suite: `npm test`<br>
+<li>To Start Server: `npm start`<br>
+<li>App is Live at:https://newsdata.onrender.com/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# *To Do Yourself:*
+<ul>
+<li>Create React app<br/>
+`npx create-react-app "project-name"`
 
-### `npm test`
+<li>React Router enables "client side routing". To use router, we need to install react-router<br/>
+`npm install react-router-dom`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<li>Run the app in the development mode.<br/>
+`npm start`
+<li>The localhost opens for your view.
 
-### `npm run build`
+<li>To get started with the platform, you can sign up for a free trial account at https://newsdata.io to get an API key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# **CHALLENGES**
+<ul>
+<li>Fetching the correct API which is useful to test in  development is crucial.
+<li>Few NEWS API's have daily/monthly credit limit.
+<li>The credit limit for this API is 200 credits/calls per day.<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# **FUTURE MODIFICATIONS:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<li> Adding Search and Sorting feature with Various Countries and Languages <br>
+<br>
 
-### `npm run eject`
+# **SOURCES**
+<li>Background Image is sourced from *Google*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## **CREDITS:**
+Special thanks to my Instructor Tishana, and my TAs Kasper Kain, Dylan Comeau  for guiding .

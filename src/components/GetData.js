@@ -3,7 +3,7 @@ import GetItem from "./GetItem";
 
 export default function Getdata({props}){
     const key =process.env.REACT_APP_APIKEY ;
-    //const key = "pub_21291ed85f7b404101d7a26ab848731a5ea16"
+    
      const [news, setNews] = useState([]);
   
      const getNews = async () => {    //fetchdata
@@ -28,12 +28,10 @@ export default function Getdata({props}){
                 <div className ="col">
              <GetItem
              title       ={results.title}
-            //  description ={results.description} 
              pubDate     ={results.pubDate}
              link        ={results.link}
              source_id   ={results.source_id}
-             creator     ={results.creator}
-             image_url   ={results.image_url}/>
+             creator     ={results.creator}/>
               </div>
               </div>
               </div>
